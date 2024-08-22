@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,7 @@
     <!-- tailwind + daisyUI cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <!-- font-awesome cdn -->
     <script src="https://kit.fontawesome.com/5d47224317.js" crossorigin="anonymous"></script>
     <style>
@@ -28,15 +29,120 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'black-1': '#212121',
+                        'black-2': '#494949',
+                        'black-3': '#737373',
+                        'green-1': '#ABEF5F'
                     }
                 }
             }
         }
     </script>
 </head>
+
 <body class="font-manrope">
-    <header>
-        
+    <header class="h-[700px] bg-gradient-to-b from-[#F5F5F5] to-[#FFFFFF] px-3 sm:p-0">
+        <section class="h-full container mx-auto ">
+            <!-- navbar starts -->
+            <nav>
+                <div class="navbar min-h-2 pt-3 md:pt-5 mb-2 md:mb-6 lg:mb-12 px-0">
+                    <div class="navbar-start flex gap-3">
+                        <div tabindex="0" role="button"
+                            class=" bg-green-1 w-8 h-8 rounded-full flex justify-center items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-4 md:size-5 text-[1.5px] text-[#1C1C1C]">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+
+
+                        </div>
+                        <a class="text-[28px] md:text-[32px] text-black-1 font-extrabold">
+                            Rinterio
+                        </a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex cursor-pointer ">
+                        <ul class=" menu-horizontal space-x-7">
+                            <li
+                                class="text-black-2 font-extrabold hover:text-green-1 hover:font-extrabold duration-300 ease-in-out">
+                                <a>Home</a>
+                            </li>
+                            <li class="text-black-3 hover:text-green-1 duration-300 ease-in-out">
+                                <a>Services</a>
+                            </li>
+                            <li class="text-black-3 hover:text-green-1 duration-300 ease-in-out">
+                                <a>Portfolio</a>
+                            </li>
+                            <li class="text-black-3 hover:text-green-1 duration-300 ease-in-out"><a>Blogs</a>
+                            </li>
+                            <li class="text-black-3 hover:text-green-1 duration-300 ease-in-out">
+                                <a>Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end flex justify-end">
+                        <div tabindex="0" role="button"
+                            class="hidden lg:flex pr-0 bg-white w-10 h-10 rounded-full border-[0.5px] justify-center items-center mr-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-black-3">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                            </svg>
+                        </div>
+                        <div tabindex="0" role="button"
+                            class="hidden lg:flex pr-0 bg-white w-10 h-10 rounded-full border-[0.5px] justify-center items-center mr-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5 text-black-3">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+
+
+
+                        </div>
+                        <button class="hidden lg:flex px-4 py-2 bg-green-1 gap-2 justify-between items-center rounded-[32px] mr-0">
+                            <a class="text-lg text-[#1C1C1C] font-extrabold" href="#">Book Consult</a>
+                            <div tabindex="0" role="button"
+                                class="hidden lg:flex bg-[#1C1C1C] w-8 h-8 rounded-full justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor"
+                                    class="size-4 md:size-5 text-[1.5px] text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+                            </div>
+                        </button>
+                        <div class="dropdown relative">
+                            <div tabindex="0" role="button"
+                                class="lg:hidden pr-0 bg-white w-8 h-8 rounded-full border-[0.5px] flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-4 text-[#737373]">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                </svg>
+
+                            </div>
+                            <ul tabindex="0"
+                                class="absolute right-0 menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li class="text-black-3 hover:text-green-1 hover:font-bold duration-300 ease-in-out"><a>Home</a></li>
+                                <li class="text-black-3 hover:text-green-1 hover:font-bold duration-300 ease-in-out">
+                                    <a>About</a>
+                                </li>
+                                <li class="text-black-3 hover:text-green-1 hover:font-bold duration-300 ease-in-out">
+                                    <a>Pages</a>
+                                </li>
+                                <li class="text-black-3 hover:text-green-1 hover:font-bold duration-300 ease-in-out">
+                                    <a>Blog</a>
+                                </li>
+                                <li class="text-black-3 hover:text-green-1 hover:font-bold duration-300 ease-in-out">
+                                    <a>Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
     </header>
     <main>
 

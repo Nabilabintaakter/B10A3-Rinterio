@@ -41,6 +41,7 @@
 </head>
 
 <body class="font-manrope">
+    <!-- banner section -->
     <header class="h-auto bg-gradient-to-b from-[#F5F5F5] to-[#FFFFFF] px-3 sm:p-0">
         <section class="h-full container mx-auto">
             <!-- navbar starts -->
@@ -123,7 +124,8 @@
                             <ul tabindex="0"
                                 class="absolute right-0 menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                                 <li class="text-black-3 hover:text-green-1 hover:font-bold duration-300 ease-in-out">
-                                    <a>Home</a></li>
+                                    <a>Home</a>
+                                </li>
                                 <li class="text-black-3 hover:text-green-1 hover:font-bold duration-300 ease-in-out">
                                     <a>About</a>
                                 </li>
@@ -144,8 +146,12 @@
             <!-- banner starts -->
             <section class="px-0 flex flex-col justify-center items-center h-auto gap-5 lg:gap-8">
                 <img src="./assets/banner.png" alt="banner-image">
-                <h2 class="text-black-1 text-3xl lg:text-[64px] font-extrabold text-center lg:leading-[87px] w-full lg:w-5/6">A barn house of this design has a striking appearance</h2>
-                <p class="text-center text-black-2 text-base font-medium w-full lg:w-2/3">Explore our barn houses with vaulted ceilings, exposed beams, and open spaces. These designs blend timeless charm with modern functionality, creating visually stunning and durable structures.</p>
+                <h2
+                    class="text-black-1 text-3xl lg:text-[64px] font-extrabold text-center lg:leading-[87px] w-full lg:w-5/6">
+                    A barn house of this design has a striking appearance</h2>
+                <p class="text-center text-black-2 text-base font-medium w-full lg:w-2/3">Explore our barn houses with
+                    vaulted ceilings, exposed beams, and open spaces. These designs blend timeless charm with modern
+                    functionality, creating visually stunning and durable structures.</p>
                 <button
                     class="flex px-4 py-2 bg-green-1 bg-opacity-50 gap-2 items-center justify-center rounded-[32px] mr-0 w-full lg:w-auto border border-green-1">
                     <a class="text-lg text-[#1C1C1C] font-extrabold" href="#">View Details</a>
@@ -162,7 +168,46 @@
         </section>
     </header>
     <main>
-
+        <!-- our thoughtful design section -->
+        <section class=" bg-[#F4F4F4] px-3 sm:p-0 mt-10 lg:mt-24">
+            <div
+                class=" container mx-auto py-8 lg:py-24 flex flex-col lg:flex-row lg:justify-between gap-6 lg:gap-0 lg:space-x-5">
+                <!-- text -->
+                <div class="relative flex-1 h-auto flex flex-col justify-between gap-5 lg:gap-0 place-items-center lg:place-items-baseline">
+                    <div class="hidden lg:block absolute -top-16 -left-12"><img src="./assets/Vector.png" alt=""></div>
+                    <button class="flex items-center gap-1 bg-white px-4 py-2 rounded-3xl w-[150px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 text-black-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+                        <p class="text-black-2 text-base font-bold">About Us</p>
+                    </button>
+                    <h3 class="text-2xl lg:text-[40px] text-black-1 font-bold w-full lg:w-5/6 leading-10 text-center lg:text-left">We design thoughtful, <br class="hidden lg:block">liveable spaces</h3>
+                    <p class="text-base text-black-2 font-medium text-center lg:text-left">We create spaces that blend functionality and aesthetics, ensuring every detail enhances comfort, style, and livability in your home.</p>
+                    <!-- card 1-->
+                    <div class="p-5 bg-white rounded-2xl h-auto flex justify-between gap-5 lg:items-center ">
+                        <img class="w-auto h-fit" src="./assets/commercial.png" alt="">
+                        <div class="">
+                            <h6 class="text-black-2 text-xl font-extrabold mb-2">Commercial</h6>
+                            <p class="text-black-3 text-base font-medium w-full lg:w-5/6">We design commercial barn spaces that blend rustic charm with modern functionality for distinctive environments.</p>
+                        </div>
+                    </div>
+                    <!-- card 2-->
+                    <div class="p-5 bg-white rounded-2xl h-auto flex justify-between gap-5 lg:items-center ">
+                        <img class="w-auto h-fit" src="./assets/residential.png" alt="">
+                        <div class="">
+                            <h6 class="text-black-2 text-xl font-extrabold mb-2">Residential</h6>
+                            <p class="text-black-3 text-base font-medium w-full lg:w-5/6">We craft residential barn homes that combine rustic elegance with modern comfort for a warm, inviting living space.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- image -->
+                <div class="flex-1 w-full lg:h-[600px] h-auto">
+                   <img class="h-full w-full" src="./assets/Rectangle.png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 

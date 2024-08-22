@@ -32,7 +32,12 @@
                         'black-1': '#212121',
                         'black-2': '#494949',
                         'black-3': '#737373',
-                        'green-1': '#ABEF5F'
+                        'green-1': '#ABEF5F',
+                        'card-title': '#1C1C1C',
+                        'card-1-bg': '#E7C1D3',
+                        'card-2-bg': '#EFDA6E',
+                        'card-3-bg': '#A4DAC3',
+                        'card-4-bg': '#77AAEA'
                     }
                 }
             }
@@ -55,8 +60,6 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                             </svg>
-
-
                         </div>
                         <a class="text-[28px] md:text-[32px] text-black-1 font-extrabold">
                             Rinterio
@@ -102,10 +105,10 @@
                             class="hidden lg:flex px-4 py-2 bg-green-1 gap-2 justify-between items-center rounded-[32px] mr-0 border-none">
                             <a class="text-lg text-[#1C1C1C] font-extrabold" href="#">Book Consult</a>
                             <div tabindex="0" role="button"
-                                class="hidden lg:flex bg-[#1C1C1C] w-8 h-8 rounded-full justify-center items-center">
+                                class="hidden lg:flex bg-[#1C1C1C] w-6 h-6 rounded-full justify-center items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor"
-                                    class="size-4 md:size-5 text-[1.5px] text-white">
+                                    stroke-width="2" stroke="currentColor"
+                                    class="size-3 text-[1.5px] text-white">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                                 </svg>
@@ -147,7 +150,7 @@
             <section class="px-0 flex flex-col justify-center items-center h-auto gap-5 lg:gap-8">
                 <img src="./assets/banner.png" alt="banner-image">
                 <h2
-                    class="text-black-1 text-3xl lg:text-[64px] font-extrabold text-center lg:leading-[87px] w-full lg:w-5/6">
+                    class="text-black-1 text-3xl lg:text-[64px] font-black text-center lg:leading-[87px] w-full lg:w-5/6">
                     A barn house of this design has a striking appearance</h2>
                 <p class="text-center text-black-2 text-base font-medium w-full lg:w-2/3">Explore our barn houses with
                     vaulted ceilings, exposed beams, and open spaces. These designs blend timeless charm with modern
@@ -173,7 +176,8 @@
             <div
                 class=" container mx-auto py-8 lg:py-24 flex flex-col lg:flex-row lg:justify-between gap-6 lg:gap-0 lg:space-x-5">
                 <!-- text -->
-                <div class="relative flex-1 h-auto flex flex-col justify-between gap-5 lg:gap-0 place-items-center lg:place-items-baseline">
+                <div
+                    class="relative flex-1 h-auto flex flex-col justify-between gap-5 lg:gap-0 place-items-center lg:place-items-baseline">
                     <div class="hidden lg:block absolute -top-16 -left-12"><img src="./assets/Vector.png" alt=""></div>
                     <button class="flex items-center gap-1 bg-white px-4 py-2 rounded-3xl w-[150px]">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -183,14 +187,20 @@
                         </svg>
                         <p class="text-black-2 text-base font-bold">About Us</p>
                     </button>
-                    <h3 class="text-2xl lg:text-[40px] text-black-1 font-bold w-full lg:w-5/6 leading-10 text-center lg:text-left">We design thoughtful, <br class="hidden lg:block">liveable spaces</h3>
-                    <p class="text-base text-black-2 font-medium text-center lg:text-left">We create spaces that blend functionality and aesthetics, ensuring every detail enhances comfort, style, and livability in your home.</p>
+                    <h3
+                        class="text-2xl lg:text-[40px] text-black-1 font-black w-full lg:w-5/6 leading-10 text-center lg:text-left">
+                        We design thoughtful, <br class="hidden lg:block">liveable spaces</h3>
+                    <p class="text-base text-black-2 font-medium text-center lg:text-left">We create spaces that blend
+                        functionality and aesthetics, ensuring every detail enhances comfort, style, and livability in
+                        your home.</p>
                     <!-- card 1-->
                     <div class="p-5 bg-white rounded-2xl h-auto flex justify-between gap-5 lg:items-center ">
                         <img class="w-auto h-fit" src="./assets/commercial.png" alt="">
                         <div class="">
                             <h6 class="text-black-2 text-xl font-extrabold mb-2">Commercial</h6>
-                            <p class="text-black-3 text-base font-medium w-full lg:w-5/6">We design commercial barn spaces that blend rustic charm with modern functionality for distinctive environments.</p>
+                            <p class="text-black-3 text-base font-medium w-full lg:w-5/6">We design commercial barn
+                                spaces that blend rustic charm with modern functionality for distinctive environments.
+                            </p>
                         </div>
                     </div>
                     <!-- card 2-->
@@ -198,13 +208,62 @@
                         <img class="w-auto h-fit" src="./assets/residential.png" alt="">
                         <div class="">
                             <h6 class="text-black-2 text-xl font-extrabold mb-2">Residential</h6>
-                            <p class="text-black-3 text-base font-medium w-full lg:w-5/6">We craft residential barn homes that combine rustic elegance with modern comfort for a warm, inviting living space.</p>
+                            <p class="text-black-3 text-base font-medium w-full lg:w-5/6">We craft residential barn
+                                homes that combine rustic elegance with modern comfort for a warm, inviting living
+                                space.</p>
                         </div>
                     </div>
                 </div>
                 <!-- image -->
                 <div class="flex-1 w-full lg:h-[600px] h-auto">
-                   <img class="h-full w-full" src="./assets/Rectangle.png" alt="">
+                    <img class="h-full w-full" src="./assets/Rectangle.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- our work process section -->
+        <section class="bg-[#F4F4F4] px-3 sm:p-0 h-auto">
+            <div class="container mx-auto h-full pb-8 lg:pb-24">
+                <!-- text -->
+                <div class="flex flex-col justify-center items-center space-y-4 lg:space-y-7 mb-8">
+                    <button class="flex items-center gap-1 bg-white px-6 py-2 rounded-3xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 text-black-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+                        <p class="text-black-2 text-base font-bold">How we work</p>
+                    </button>
+                    <h3
+                        class="text-2xl lg:text-[40px] text-black-1 font-black w-full  leading-10 text-center">
+                        Our Works Process</h3>
+                    <p class="text-base text-black-2 font-medium text-center w-full ">Our work process meticulously crafts each barn home, blending traditional techniques with modern <br class="hidden lg:block">design principles to create unique, high-quality living spaces.</p>
+                </div>
+                <!-- cards container -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- card-1 -->
+                    <div class="rounded-2xl p-6 flex flex-col space-y-3 bg-card-1-bg">
+                        <img class="w-12 h-12" src="./assets/concept.png" alt="">
+                        <h6 class="text-xl text-card-title font-extrabold">Concept</h6>
+                        <p class="text-base text-black-2 font-medium">Our working concept integrates your ideas with our expertise for custom barn designs.</p>
+                    </div>
+                    <!-- card-2 -->
+                    <div class="rounded-2xl p-6 flex flex-col space-y-3 bg-card-2-bg">
+                        <img class="w-12 h-12" src="./assets/flow-chart.png" alt="">
+                        <h6 class="text-xl text-card-title font-extrabold">Design Process</h6>
+                        <p class="text-base text-black-2 font-medium">Our design process combines creativity and precision to bring your barn vision to life.</p>
+                    </div>
+                    <!-- card-3 -->
+                    <div class="rounded-2xl p-6 flex flex-col space-y-3 bg-card-3-bg">
+                        <img class="w-12 h-12" src="./assets/vision.png" alt="">
+                        <h6 class="text-xl text-card-title font-extrabold">Supervision</h6>
+                        <p class="text-base text-black-2 font-medium">Our supervision ensures every detail of your barn project meets our high standards.</p>
+                    </div>
+                    <!-- card-4 -->
+                    <div class="rounded-2xl p-6 flex flex-col space-y-3 bg-card-4-bg">
+                        <img class="w-12 h-12" src="./assets/budget-planning.png" alt="">
+                        <h6 class="text-xl text-card-title font-extrabold">Budget Planning</h6>
+                        <p class="text-base text-black-2 font-medium">Our budget planning aligns expenses with your vision for clear, manageable project costs.</p>
+                    </div>
                 </div>
             </div>
         </section>

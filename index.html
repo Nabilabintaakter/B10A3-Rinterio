@@ -41,11 +41,11 @@
 </head>
 
 <body class="font-manrope">
-    <header class="h-[700px] bg-gradient-to-b from-[#F5F5F5] to-[#FFFFFF] px-3 sm:p-0">
-        <section class="h-full container mx-auto ">
+    <header class="h-auto bg-gradient-to-b from-[#F5F5F5] to-[#FFFFFF] px-3 sm:p-0">
+        <section class="h-full container mx-auto">
             <!-- navbar starts -->
             <nav>
-                <div class="navbar min-h-2 pt-3 md:pt-5 mb-2 md:mb-6 lg:mb-12 px-0">
+                <div class="navbar min-h-2 pt-3 md:pt-5 mb-4 lg:mb-6 px-0">
                     <div class="navbar-start flex gap-1 lg:gap-4">
                         <div tabindex="0" role="button"
                             class=" bg-green-1 w-8 h-8 rounded-full flex justify-center items-center">
@@ -96,11 +96,9 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                             </svg>
-
-
-
                         </div>
-                        <button class="hidden lg:flex px-4 py-2 bg-green-1 gap-2 justify-between items-center rounded-[32px] mr-0">
+                        <button
+                            class="hidden lg:flex px-4 py-2 bg-green-1 gap-2 justify-between items-center rounded-[32px] mr-0 border-none">
                             <a class="text-lg text-[#1C1C1C] font-extrabold" href="#">Book Consult</a>
                             <div tabindex="0" role="button"
                                 class="hidden lg:flex bg-[#1C1C1C] w-8 h-8 rounded-full justify-center items-center">
@@ -114,9 +112,9 @@
                         </button>
                         <div class="dropdown relative">
                             <div tabindex="0" role="button"
-                                class="lg:hidden pr-0 bg-white w-8 h-8 rounded-full border-[0.5px] flex justify-center items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" class="size-4 text-[#737373] text-[1.5px]">
+                                class="lg:hidden pr-0 bg-white w-[34px] h-[34px] rounded-full border-[0.5px] flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                    stroke="currentColor" class="size-5 text-[#737373] text-[3px]">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                                 </svg>
@@ -124,7 +122,8 @@
                             </div>
                             <ul tabindex="0"
                                 class="absolute right-0 menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                                <li class="text-black-3 hover:text-green-1 hover:font-bold duration-300 ease-in-out"><a>Home</a></li>
+                                <li class="text-black-3 hover:text-green-1 hover:font-bold duration-300 ease-in-out">
+                                    <a>Home</a></li>
                                 <li class="text-black-3 hover:text-green-1 hover:font-bold duration-300 ease-in-out">
                                     <a>About</a>
                                 </li>
@@ -142,6 +141,24 @@
                     </div>
                 </div>
             </nav>
+            <!-- banner starts -->
+            <section class="px-0 flex flex-col justify-center items-center h-auto gap-5 lg:gap-8">
+                <img src="./assets/banner.png" alt="banner-image">
+                <h2 class="text-black-1 text-3xl lg:text-[64px] font-extrabold text-center lg:leading-[87px] w-full lg:w-5/6">A barn house of this design has a striking appearance</h2>
+                <p class="text-center text-black-2 text-base font-medium w-full lg:w-2/3">Explore our barn houses with vaulted ceilings, exposed beams, and open spaces. These designs blend timeless charm with modern functionality, creating visually stunning and durable structures.</p>
+                <button
+                    class="flex px-4 py-2 bg-green-1 bg-opacity-50 gap-2 items-center justify-center rounded-[32px] mr-0 w-full lg:w-auto border border-green-1">
+                    <a class="text-lg text-[#1C1C1C] font-extrabold" href="#">View Details</a>
+                    <div tabindex="0" role="button"
+                        class="flex bg-green-1 w-8 h-8 rounded-full justify-center items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-4 md:size-5 text-[1.5px] text-[#1C1C1C]">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </div>
+                </button>
+            </section>
         </section>
     </header>
     <main>

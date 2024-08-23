@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 3-Barn House</title>
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
 
     <!-- google font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -366,6 +367,77 @@
                 </div>
             </div>
         </section>
+        <!-- FAQ section (Challenge part)-->
+        <section
+            class="bg-[#F4F4F4] px-4 sm:p-0 flex justify-center items-center h-auto mb-10 lg:mb-24 ">
+            <div class="container mx-auto h-full">
+                <div class=" h-full rounded-3xl faq-bg">
+                    <!-- text -->
+                    <div
+                        class="flex flex-col justify-center items-center space-y-4 lg:space-y-7 mb-5 lg:mb-8 pt-5 md:pt-12">
+                        <button class="flex items-center gap-1 bg-white px-6 py-2 rounded-3xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 text-black-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                            </svg>
+                            <p class="text-black-2 text-base font-extrabold">Helpful Information</p>
+                        </button>
+                        <h3 class="text-2xl lg:text-[40px] text-white font-black w-full  leading-10 text-center">
+                            Frequently Asked <br class="block md:hidden"> <span class="text-green-1">Questions</span></h3>
+                        <p class="text-base text-gray-300 font-medium text-center w-full px-2 md:px-0">Get reliable answers to
+                            common questions about barn houses, including design options, materials, costs, <br class="hidden lg:block">and
+                            construction timelines, directly from our experts.</p>
+                    </div>
+                    <!-- faq content -->
+                    <div class="hero pb-5 md:pb-12">
+                        <div class="hero-content flex-col lg:flex-row justify-around lg:gap-16">
+                            <img class="w-[300px] lg:w-[500px] h-full" src="./assets/faq-2.png" />
+                            <!-- Accordion -->
+                            <div class="space-y-5 sm:w-3/4 lg:w-1/2">
+                                <div class="collapse collapse-arrow border-2 bg-white">
+                                    <input type="radio" name="my-accordion-2" checked="checked" />
+                                    <div class="collapse-title text-xl font-medium">Can I customize the design of my barn house?</div>
+                                    <div class="collapse-content">
+                                        <p>Yes, we offer a range of customization options to suit your preferences. From floor plans and materials to interior finishes, our team works closely with you to create a barn house that reflects your vision. </p>
+                                    </div>
+                                </div>
+                                <div class="collapse collapse-arrow border-2 bg-white">
+                                    <input type="radio" name="my-accordion-2" />
+                                    <div class="collapse-title text-xl font-medium">What materials are used in barn house construction?</div>
+                                    <div class="collapse-content">
+                                        <p>We use a variety of high-quality materials, including wood, metal, and sustainable options like reclaimed wood and eco-friendly insulation, to ensure durability, aesthetics, and environmental responsibility.</p>
+                                    </div>
+                                </div>
+                                <div class="collapse collapse-arrow border-2 bg-white">
+                                    <input type="radio" name="my-accordion-2" />
+                                    <div class="collapse-title text-xl font-medium">How energy-efficient are barn houses?</div>
+                                    <div class="collapse-content">
+                                        <p>Barn houses are known for their energy efficiency due to their design and construction techniques. We use modern insulation, energy-efficient windows, and sustainable materials to enhance energy savings and reduce environmental impact.</p>
+                                    </div>
+                                </div>
+                                <div class="collapse collapse-arrow border-2 bg-white">
+                                    <input type="radio" name="my-accordion-2" />
+                                    <div class="collapse-title text-xl font-medium">How long does it take to build a barn house?</div>
+                                    <div class="collapse-content">
+                                        <p>The timeline for building a barn house varies depending on the complexity of the design and customization options. On average, it takes 6-12 months from the initial design phase to completion.</p>
+                                    </div>
+                                </div>
+                                <div class="collapse collapse-arrow border-2 bg-white">
+                                    <input type="radio" name="my-accordion-2" />
+                                    <div class="collapse-title text-xl font-medium">Do you offer financing options for barn house projects?</div>
+                                    <div class="collapse-content">
+                                        <p>Yes, we work with several financing partners to offer flexible financing options for your barn house project. Please contact us for more information on available plans.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
         <!-- our next project section -->
         <section class=" flex justify-center items-center h-[936px] md:h-[913px] sm:p-0 mt-0 ">
             <div class="w-[99%] h-[99%] bg-cover bg-center bg-no-repeat"
@@ -438,8 +510,10 @@
                                 Rinterio
                             </a>
                         </div>
-                        <p class="text-center text-base text-black-3 font-medium px-5 md:px-0">Contact us for inquiries or project
-                            consultations. Follow us on social media for updates <br class="hidden md:block">and inspiration on barn house
+                        <p class="text-center text-base text-black-3 font-medium px-5 md:px-0">Contact us for inquiries
+                            or project
+                            consultations. Follow us on social media for updates <br class="hidden md:block">and
+                            inspiration on barn house
                             designs.</p>
                     </div>
                     <nav class="text-footer-links text-center md:text-left flex flex-col md:flex-row gap-4 md:gap-28">
@@ -468,4 +542,5 @@
         </div>
     </footer>
 </body>
+
 </html>

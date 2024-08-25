@@ -54,7 +54,7 @@
         <section class="h-full container mx-auto">
             <!-- navbar starts -->
             <nav>
-                <div class="navbar min-h-2 pt-3 md:pt-5 mb-4 lg:mb-6 px-0">
+                <div class="navbar min-h-2 pt-3 md:pt-5 mb-4 md:mb-6 px-0">
                     <div class="navbar-start flex gap-1 lg:gap-4">
                         <div tabindex="0" role="button"
                             class=" bg-green-1 w-8 h-8 rounded-full flex justify-center items-center">
@@ -154,8 +154,10 @@
                 <h2
                     class="text-black-1 text-3xl lg:text-[64px] font-black text-center lg:leading-[87px] w-full lg:w-5/6">
                     A barn house of this design has a striking appearance</h2>
-                <p class="text-center text-black-2 text-base font-medium w-full md:w-5/6 lg:w-2/3">Explore our barn houses with
-                    vaulted ceilings, exposed beams, and open spaces. These designs blend timeless charm with modern functionality, creating visually stunning and durable structures.</p>
+                <p class="text-center text-black-2 text-base font-medium w-full md:w-5/6 lg:w-2/3">Explore our barn
+                    houses with
+                    vaulted ceilings, exposed beams, and open spaces. These designs blend timeless charm with modern
+                    functionality, creating visually stunning and durable structures.</p>
                 <button
                     class="flex px-4 py-2 bg-green-1 bg-opacity-50 gap-2 items-center justify-center rounded-[32px] mr-0 w-full md:w-auto border border-green-1">
                     <a class="text-lg text-[#1C1C1C] font-extrabold" href="#">View Details</a>
@@ -173,12 +175,12 @@
     </header>
     <main>
         <!-- our thoughtful design section -->
-        <section class=" bg-[#F4F4F4] px-4 sm:p-0 mt-10 lg:mt-24">
+        <section class=" bg-[#F4F4F4] px-4 sm:p-0 mt-10 md:mt-[72px] lg:mt-24">
             <div
-                class=" container mx-auto py-8 lg:py-24 flex flex-col lg:flex-row lg:justify-between gap-4 lg:gap-0 lg:space-x-5">
+                class=" container mx-auto lg:px-10 py-8 md:py-[72px] lg:py-24 flex flex-col lg:flex-row lg:justify-between gap-4 md:gap-6 lg:gap-0 lg:space-x-5">
                 <!-- text -->
                 <div
-                    class="relative flex-1 h-auto flex flex-col justify-between gap-3 lg:gap-0 place-items-center lg:place-items-baseline">
+                    class="relative flex-1 h-auto flex flex-col justify-between gap-4 md:gap-6 lg:gap-5 place-items-center lg:place-items-baseline">
                     <div class="hidden lg:block absolute -top-16 -left-12"><img src="./assets/Vector.png" alt=""></div>
                     <button class="flex items-center gap-1 bg-white px-4 py-2 rounded-3xl w-[150px]">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -189,34 +191,38 @@
                         <p class="text-black-2 text-base font-extrabold">About Us</p>
                     </button>
                     <h3
-                        class="text-2xl lg:text-[40px] text-black-1 font-black w-full lg:w-5/6 leading-10 text-center lg:text-left">
-                        We design thoughtful, <br>liveable spaces</h3>
-                    <p class="text-base text-black-2 font-medium text-center lg:text-left">We create spaces that blend
+                        class="text-2xl md:text-[32px] lg:text-[40px] text-black-1 font-black w-full lg:w-5/6 leading-10 text-center lg:text-left">
+                        We design thoughtful, <br class="md:hidden lg:block">liveable spaces</h3>
+                    <p class="text-base text-black-2 font-medium text-center lg:text-left mb-6 lg:mb-0">We
+                        create spaces that blend
                         functionality and aesthetics, ensuring every detail enhances comfort, style, and livability in
                         your home.</p>
-                    <!-- card 1-->
-                    <div class="p-5 bg-white rounded-2xl h-auto flex justify-between gap-5 lg:items-center ">
-                        <img class="w-auto h-fit" src="./assets/commercial.png" alt="">
-                        <div class="">
-                            <h6 class="text-black-2 text-xl font-extrabold mb-2">Commercial</h6>
-                            <p class="text-black-3 text-base font-medium w-full lg:w-5/6">We design commercial barn
-                                spaces that blend rustic charm with modern functionality for distinctive environments.
-                            </p>
+                    <div class="flex flex-col md:flex-row lg:flex-col justify-between gap-5">
+                        <!-- card 1-->
+                        <div class="p-5 bg-white rounded-2xl h-auto flex justify-between gap-5 lg:items-center">
+                            <img class="w-auto h-fit" src="./assets/commercial.png" alt="">
+                            <div class="">
+                                <h6 class="text-black-2 text-xl font-extrabold mb-2">Commercial</h6>
+                                <p class="text-black-3 text-base font-medium w-full lg:w-5/6">We design commercial barn
+                                    spaces that blend rustic charm with modern functionality for distinctive
+                                    environments.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <!-- card 2-->
-                    <div class="p-5 bg-white rounded-2xl h-auto flex justify-between gap-5 lg:items-center ">
-                        <img class="w-auto h-fit" src="./assets/residential.png" alt="">
-                        <div class="">
-                            <h6 class="text-black-2 text-xl font-extrabold mb-2">Residential</h6>
-                            <p class="text-black-3 text-base font-medium w-full lg:w-5/6">We craft residential barn
-                                homes that combine rustic elegance with modern comfort for a warm, inviting living
-                                space.</p>
+                        <!-- card 2-->
+                        <div class="p-5 bg-white rounded-2xl h-auto flex justify-between gap-5 lg:items-center ">
+                            <img class="w-auto h-fit" src="./assets/residential.png" alt="">
+                            <div class="">
+                                <h6 class="text-black-2 text-xl font-extrabold mb-2">Residential</h6>
+                                <p class="text-black-3 text-base font-medium w-full lg:w-5/6">We craft residential barn
+                                    homes that combine rustic elegance with modern comfort for a warm, inviting living
+                                    space.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!-- image -->
-                <div class="flex-1 w-full lg:h-[600px] h-auto">
+                <div class="lg:flex-1 w-full h-[383px] md:h-[485px] lg:h-auto">
                     <img class="h-full w-full" src="./assets/Rectangle.png" alt="">
                 </div>
             </div>
@@ -367,8 +373,7 @@
             </div>
         </section>
         <!-- FAQ section (Challenge part)-->
-        <section
-            class="bg-[#F4F4F4] px-4 sm:p-0 flex justify-center items-center h-auto mb-10 lg:mb-24 ">
+        <section class="bg-[#F4F4F4] px-4 sm:p-0 flex justify-center items-center h-auto mb-10 lg:mb-24 ">
             <div class="container mx-auto h-full">
                 <div class=" h-full rounded-3xl faq-bg">
                     <!-- text -->
@@ -383,9 +388,12 @@
                             <p class="text-black-2 text-base font-extrabold">Helpful Information</p>
                         </button>
                         <h3 class="text-2xl lg:text-[40px] text-white font-black w-full  leading-10 text-center">
-                            Frequently Asked <br class="block md:hidden"> <span class="text-green-1">Questions</span></h3>
-                        <p class="text-base text-gray-300 font-medium text-center w-full px-2 md:px-0">Get reliable answers to
-                            common questions about barn houses, including design options, materials, costs, <br class="hidden lg:block">and
+                            Frequently Asked <br class="block md:hidden"> <span class="text-green-1">Questions</span>
+                        </h3>
+                        <p class="text-base text-gray-300 font-medium text-center w-full px-2 md:px-0">Get reliable
+                            answers to
+                            common questions about barn houses, including design options, materials, costs, <br
+                                class="hidden lg:block">and
                             construction timelines, directly from our experts.</p>
                     </div>
                     <!-- faq content -->
@@ -396,37 +404,53 @@
                             <div class="space-y-5 sm:w-3/4 lg:w-1/2">
                                 <div class="collapse collapse-arrow border-2 bg-white">
                                     <input type="radio" name="my-accordion-2" checked="checked" />
-                                    <div class="collapse-title text-xl font-medium">Can I customize the design of my barn house?</div>
+                                    <div class="collapse-title text-xl font-medium">Can I customize the design of my
+                                        barn house?</div>
                                     <div class="collapse-content">
-                                        <p>Yes, we offer a range of customization options to suit your preferences. From floor plans and materials to interior finishes, our team works closely with you to create a barn house that reflects your vision. </p>
+                                        <p>Yes, we offer a range of customization options to suit your preferences. From
+                                            floor plans and materials to interior finishes, our team works closely with
+                                            you to create a barn house that reflects your vision. </p>
                                     </div>
                                 </div>
                                 <div class="collapse collapse-arrow border-2 bg-white">
                                     <input type="radio" name="my-accordion-2" />
-                                    <div class="collapse-title text-xl font-medium">What materials are used in barn house construction?</div>
+                                    <div class="collapse-title text-xl font-medium">What materials are used in barn
+                                        house construction?</div>
                                     <div class="collapse-content">
-                                        <p>We use a variety of high-quality materials, including wood, metal, and sustainable options like reclaimed wood and eco-friendly insulation, to ensure durability, aesthetics, and environmental responsibility.</p>
+                                        <p>We use a variety of high-quality materials, including wood, metal, and
+                                            sustainable options like reclaimed wood and eco-friendly insulation, to
+                                            ensure durability, aesthetics, and environmental responsibility.</p>
                                     </div>
                                 </div>
                                 <div class="collapse collapse-arrow border-2 bg-white">
                                     <input type="radio" name="my-accordion-2" />
-                                    <div class="collapse-title text-xl font-medium">How energy-efficient are barn houses?</div>
+                                    <div class="collapse-title text-xl font-medium">How energy-efficient are barn
+                                        houses?</div>
                                     <div class="collapse-content">
-                                        <p>Barn houses are known for their energy efficiency due to their design and construction techniques. We use modern insulation, energy-efficient windows, and sustainable materials to enhance energy savings and reduce environmental impact.</p>
+                                        <p>Barn houses are known for their energy efficiency due to their design and
+                                            construction techniques. We use modern insulation, energy-efficient windows,
+                                            and sustainable materials to enhance energy savings and reduce environmental
+                                            impact.</p>
                                     </div>
                                 </div>
                                 <div class="collapse collapse-arrow border-2 bg-white">
                                     <input type="radio" name="my-accordion-2" />
-                                    <div class="collapse-title text-xl font-medium">How long does it take to build a barn house?</div>
+                                    <div class="collapse-title text-xl font-medium">How long does it take to build a
+                                        barn house?</div>
                                     <div class="collapse-content">
-                                        <p>The timeline for building a barn house varies depending on the complexity of the design and customization options. On average, it takes 6-12 months from the initial design phase to completion.</p>
+                                        <p>The timeline for building a barn house varies depending on the complexity of
+                                            the design and customization options. On average, it takes 6-12 months from
+                                            the initial design phase to completion.</p>
                                     </div>
                                 </div>
                                 <div class="collapse collapse-arrow border-2 bg-white">
                                     <input type="radio" name="my-accordion-2" />
-                                    <div class="collapse-title text-xl font-medium">Do you offer financing options for barn house projects?</div>
+                                    <div class="collapse-title text-xl font-medium">Do you offer financing options for
+                                        barn house projects?</div>
                                     <div class="collapse-content">
-                                        <p>Yes, we work with several financing partners to offer flexible financing options for your barn house project. Please contact us for more information on available plans.
+                                        <p>Yes, we work with several financing partners to offer flexible financing
+                                            options for your barn house project. Please contact us for more information
+                                            on available plans.
                                         </p>
                                     </div>
                                 </div>

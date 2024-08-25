@@ -50,7 +50,7 @@
 
 <body class="font-manrope lg:border-2 lg:border-gray-300 lg:border-dashed">
     <!-- banner section -->
-    <header class="h-auto bg-gradient-to-b from-[#F5F5F5] to-[#FFFFFF] px-4 sm:p-0">
+    <header class="h-auto bg-gradient-to-b from-[#F5F5F5] to-[#FFFFFF] px-5 sm:p-0">
         <section class="h-full container mx-auto">
             <!-- navbar starts -->
             <nav>
@@ -175,7 +175,7 @@
     </header>
     <main>
         <!-- our thoughtful design section -->
-        <section class=" bg-[#F4F4F4] px-4 sm:p-0 mt-10 md:mt-[72px] lg:mt-24">
+        <section class=" bg-[#F4F4F4] px-5 sm:p-0 mt-10 md:mt-[72px] lg:mt-24">
             <div
                 class=" container mx-auto lg:px-10 py-8 md:py-[72px] lg:py-24 flex flex-col lg:flex-row lg:justify-between gap-4 md:gap-6 lg:gap-0 lg:space-x-5">
                 <!-- text -->
@@ -228,10 +228,10 @@
             </div>
         </section>
         <!-- our work process section -->
-        <section class="bg-[#F4F4F4] px-4 sm:p-0 h-auto">
-            <div class="container mx-auto h-full pb-8 lg:pb-24">
+        <section class="bg-[#F4F4F4] px-5 sm:p-0 h-auto">
+            <div class="container mx-auto h-full pb-8 md:pb-[72px] lg:pb-24">
                 <!-- text -->
-                <div class="flex flex-col justify-center items-center space-y-4 lg:space-y-7 mb-5 lg:mb-8">
+                <div class="flex flex-col justify-center items-center space-y-4 lg:space-y-7 mb-6 lg:mb-8">
                     <button class="flex items-center gap-1 bg-white px-6 py-2 rounded-3xl">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6 text-black-2">
@@ -247,7 +247,7 @@
                             class="hidden lg:block">design principles to create unique, high-quality living spaces.</p>
                 </div>
                 <!-- cards container -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 lg:gap-6">
                     <!-- card-1 -->
                     <div class="rounded-2xl p-6 flex flex-col space-y-3 bg-card-1-bg">
                         <img class="w-12 h-12" src="./assets/concept.png" alt="">
@@ -280,8 +280,8 @@
             </div>
         </section>
         <!-- our latest portfolio section -->
-        <section class="bg-[#F4F4F4] md:bg-white h-auto px-4 sm:p-0 mt-0 md:mt-24">
-            <div class="container mx-auto h-full pb-8 lg:pb-24">
+        <section class="bg-[#F4F4F4] lg:bg-white h-auto px-5 sm:p-0 mt-0 lg:mt-24">
+            <div class="container mx-auto h-full pb-8 md:pb-[72px] lg:pb-24">
                 <!-- text -->
                 <div class="flex flex-col justify-center items-center space-y-4 lg:space-y-7 mb-5 md:mb-8">
                     <button class="flex items-center gap-1 bg-green-1 bg-opacity-20 px-6 py-2 rounded-3xl">
@@ -299,81 +299,122 @@
                         and modern design in each project.</p>
                 </div>
                 <!-- portfolio cards -->
-                <!-- row-1 -->
-                <div class="flex flex-col md:flex-row gap-3 md:gap-4">
-                    <!-- card-1 -->
-                    <div
-                        class="bg-white md:bg-none border-2 p-3 md:p-4 flex flex-col md:flex-row gap-3 md:gap-4 items-center flex-none w-full md:w-2/3 md:h-[230px] rounded-2xl">
-                        <img class="w-full lg:w-1/3 h-full" src="./assets/img1.png" alt="">
-                        <div class="h-full flex flex-col gap-3 md:gap-0 md:justify-between">
-                            <h6 class="text-black-2 text-2xl font-extrabold">Commercial</h6>
-                            <p class="text-base text-black-3 font-medium w-full lg:w-5/6">Explore our commercial barn
-                                projects, where we skillfully merge rustic aesthetics with innovative, functional modern
-                                design, creating distinctive business spaces that stand out and inspire.</p>
-                            <button class="flex gap-2 items-center rounded-[32px] mr-0 w-full lg:w-auto">
-                                <a class="text-lg text-[#1C1C1C] font-extrabold" href="#">View Details</a>
-                                <div tabindex="0" role="button"
-                                    class="flex bg-green-1 w-8 h-8 rounded-full justify-center items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor"
-                                        class="size-4 md:size-5 text-[1.5px] text-[#1C1C1C]">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                </div>
-                            </button>
+                <div class=" grid grid-cols-1 gap-4 md:gap-5 lg:gap-6 ">
+                    <!-- row-1 -->
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-5 lg:gap-6">
+                        <!-- card-1 -->
+                        <div
+                            class="bg-white border-2 p-6 flex flex-col md:flex-row gap-6 items-center flex-none w-full rounded-2xl lg:col-span-2">
+                            <img class="w-full lg:w-2/3 h-full" src="./assets/img1.png" alt="">
+                            <div class="h-full flex flex-col gap-3 md:gap-0 md:justify-between">
+                                <h6 class="text-black-2 text-2xl font-extrabold">Commercial</h6>
+                                <p class="text-base text-black-3 font-medium w-full">Explore our commercial barn
+                                    projects, where we skillfully merge rustic aesthetics with innovative, functional
+                                    modern
+                                    design, creating distinctive business spaces.</p>
+                                <button class="flex gap-2 items-center rounded-[32px] mr-0 w-full lg:w-auto">
+                                    <a class="text-lg text-[#1C1C1C] font-extrabold" href="#">View Details</a>
+                                    <div tabindex="0" role="button"
+                                        class="flex bg-green-1 w-8 h-8 rounded-full justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="size-4 md:size-5 text-[1.5px] text-[#1C1C1C]">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
                         </div>
-
-                    </div>
-                    <!-- card-2 -->
-                    <div class="bg-white md:bg-none rounded-2xl border-2 p-3 md:p-4 md:flex-1 md:h-[230px]">
-                        <img class="w-full h-full" src="./assets/img2.png" alt="">
-                    </div>
-                </div>
-                <!-- row-2 -->
-                <div class="flex flex-col-reverse md:flex-row mt-3 md:mt-4 gap-3 md:gap-4">
-                    <!-- card-3 -->
-                    <div
-                        class="md:hidden bg-white md:bg-none rounded-2xl border-2 p-3 md:p-4  md:h-[230px] md:w-1/4 flex-1">
-                        <img class="w-full h-full" src="./assets/img5.png" alt="">
-                    </div>
-                    <!-- card-1 -->
-                    <div
-                        class="bg-white md:bg-none rounded-2xl border-2 p-3 md:p-4 md:h-[230px] w-full md:w-1/4 md:flex-1">
-                        <img class="w-full h-full" src="./assets/img3.png" alt="">
-                    </div>
-                    <!-- card-2 -->
-                    <div
-                        class="bg-white md:bg-none rounded-2xl border-2 p-3 md:p-4 flex flex-col md:flex-row gap-4 items-center flex-none md:w-1/2 md:h-[230px]">
-                        <img class="w-full lg:w-1/3 h-full" src="./assets/img4.png" alt="">
-                        <div class=" h-full flex flex-col gap-3 md:gap-0 md:justify-between">
-                            <h6 class="text-black-2 text-2xl font-extrabold">Residential</h6>
-                            <p class="text-base text-black-3 font-medium w-full">Discover our residential barn homes,
-                                expertly designed to blend rustic charm with modern comfort, creating warm and inviting
-                                living spaces that truly feel like home.</p>
-                            <button class="flex gap-2 items-center rounded-[32px] mr-0 w-full lg:w-auto">
-                                <a class="text-lg text-[#1C1C1C] font-extrabold" href="#">View Details</a>
-                                <div tabindex="0" role="button"
-                                    class="flex bg-green-1 w-8 h-8 rounded-full justify-center items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor"
-                                        class="size-4 md:size-5 text-[1.5px] text-[#1C1C1C]">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                </div>
-                            </button>
+                        <div class="md:grid md:grid-cols-2 lg:grid-cols-1 md:gap-5">
+                            <!-- card-2 -->
+                            <div class="bg-white rounded-2xl border-2 p-5 md:p-6 col-span-1 sm:h-auto">
+                                <img class="w-full h-full" src="./assets/img2.png" alt="">
+                            </div>
+                            <!-- card-5 -->
+                            <div
+                                class="hidden md:block lg:hidden bg-white rounded-2xl border-2 p-5 md:p-6 md:col-span-1">
+                                <img class="w-full h-full" src="./assets/img5.png" alt="">
+                            </div>
                         </div>
                     </div>
-                    <!-- card-3 -->
-                    <div class="bg-white md:bg-none rounded-2xl border-2 p-3 md:p-4 md:h-[230px] md:w-1/4 flex-1">
-                        <img class="w-full h-full" src="./assets/img5.png" alt="">
+                    <!-- row-2 -->
+                    <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 md:gap-5 lg:gap-6">
+                        <!-- card-5 -->
+                        <div class="md:hidden bg-white rounded-2xl border-2 p-5 md:p-6 lg:col-span-1">
+                            <img class="w-full h-full" src="./assets/img5.png" alt="">
+                        </div>
+                        <!-- card-4 -->
+                        <div
+                            class="lg:hidden bg-white border-2 p-6 flex flex-col md:flex-row gap-6 items-center w-full rounded-2xl lg:col-span-2">
+                            <img class="w-full lg:w-1/2 h-full" src="./assets/img4.png" alt="">
+                            <div class=" h-full flex flex-col gap-3 md:gap-0 md:justify-between">
+                                <h6 class="text-black-2 text-2xl font-extrabold">Residential</h6>
+                                <p class="text-base text-black-3 font-medium w-full">Discover our residential barn
+                                    homes,
+                                    expertly designed to blend rustic charm with modern comfort, creating warm and
+                                    inviting
+                                    living spaces.</p>
+                                <button class="flex gap-2 items-center rounded-[32px] mr-0 w-full lg:w-auto">
+                                    <a class="text-lg text-[#1C1C1C] font-extrabold" href="#">View Details</a>
+                                    <div tabindex="0" role="button"
+                                        class="flex bg-green-1 w-8 h-8 rounded-full justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="size-4 md:size-5 text-[1.5px] text-[#1C1C1C]">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="md:grid md:grid-cols-2 md:gap-5">
+                            <!-- card-3 -->
+                            <div class="bg-white rounded-2xl border-2 p-5 md:p-6 md:col-span-1 lg:col-span-2">
+                                <img class="w-full h-full" src="./assets/img3.png" alt="">
+                            </div>
+                            <!-- card-5 -->
+                            <div
+                                class="hidden md:block lg:hidden bg-white rounded-2xl border-2 p-5 md:p-6 lg:col-span-1">
+                                <img class="w-full h-full" src="./assets/img5.png" alt="">
+                            </div>
+                        </div>
+                        <!-- card-4 -->
+                        <div
+                            class="hidden lg:flex bg-white border-2 p-6 flex-col md:flex-row gap-6 items-center w-full rounded-2xl lg:col-span-2">
+                            <img class="w-full lg:w-1/2 h-full" src="./assets/img4.png" alt="">
+                            <div class=" h-full flex flex-col gap-3 md:gap-0 md:justify-between">
+                                <h6 class="text-black-2 text-2xl font-extrabold">Residential</h6>
+                                <p class="text-base text-black-3 font-medium w-full">Discover our residential barn
+                                    homes,
+                                    expertly designed to blend rustic charm with modern comfort, creating warm and
+                                    inviting
+                                    living spaces.</p>
+                                <button class="flex gap-2 items-center rounded-[32px] mr-0 w-full lg:w-auto">
+                                    <a class="text-lg text-[#1C1C1C] font-extrabold" href="#">View Details</a>
+                                    <div tabindex="0" role="button"
+                                        class="flex bg-green-1 w-8 h-8 rounded-full justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="size-4 md:size-5 text-[1.5px] text-[#1C1C1C]">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- card-5 -->
+                        <div class="md:hidden lg:block bg-white rounded-2xl border-2 p-5 md:p-6 lg:col-span-1">
+                            <img class="w-full h-full" src="./assets/img5.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- FAQ section (Challenge part)-->
-        <section class="bg-[#F4F4F4] px-4 sm:p-0 flex justify-center items-center h-auto mb-10 lg:mb-24 ">
+        <section class="bg-[#F4F4F4] px-5 sm:p-0 flex justify-center items-center h-auto mb-10 lg:mb-24 ">
             <div class="container mx-auto h-full">
                 <div class=" h-full rounded-3xl faq-bg">
                     <!-- text -->
@@ -465,7 +506,7 @@
         <section class=" flex justify-center items-center h-[936px] md:h-[913px] sm:p-0 mt-0 ">
             <div class="w-[99%] h-[99%] bg-cover bg-center bg-no-repeat"
                 style="background-image: url('./assets/bg.jpg');">
-                <div class=" container mx-auto h-full pt-8 lg:pt-20 px-2 md:px-12 lg:px-28">
+                <div class=" container mx-auto h-full pt-8 lg:pt-20 px-6 md:px-12 lg:px-28">
                     <!-- text -->
                     <div class="flex flex-col justify-center items-center space-y-4 lg:space-y-7 mb-5 md:mb-8">
                         <button class="flex items-center gap-1 bg-green-1 bg-opacity-20 px-6 py-2 rounded-3xl">
